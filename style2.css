@@ -2,11 +2,13 @@
     padding: 0;;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 .body {
     width: 100%;
     height: 700px;
 }
+
 .header {
     background-color: antiquewhite;
     position: fixed;
@@ -211,7 +213,6 @@
     justify-content: center;
     text-align: center;
     color: #000c04;
-    font-family: Lobster, sans-serif;
 }
 
 .intro .doc {
@@ -226,12 +227,12 @@
 
 .intro .doc p {
     margin: 0 25%;
-    font-family: lobster;
     color: #696969;
 }
 
 .intro .read {
     text-align: center;
+    margin-top: 46px;
 }
 
 .intro .read a{
@@ -242,20 +243,81 @@
     font-weight: bold;
 }
 
-.intro .read:hover a{
+.intro .read:hover a{   
     color: #189a46;
 }
 
-.cards .card {
-    margin: 10px 10px;
-    
+.feature {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
 }
 
-.cards .card1-3 {
+.container.cards {
     display: flex;
-    justify-content: center;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10%;
 }
-.cards .card4-6 {
-    display: flex;
-    justify-content: center;
+
+ .cards .card {
+    margin: 10px;
+    width: 30%;
+    padding: 30px 15px;
+    border-radius: 10px;
+ }
+
+.cards .card:hover {
+    transition: all 0.4s;
+    background-color: whitesmoke;
+}
+
+.cards .card .card-body {
+    padding: 0;
+}
+
+.cards .card .card-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.cards .card .card-body .card-title {
+    display: inline-block;
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cards .card .card-body .card-title:hover {
+    color: #189a46;
+    transition: all 0.3s linear;
+}
+
+.feature .cards .card .card-body .btn.btn-primary:hover{
+    transition: all 0.4s linear;
+    color: #189a46;
+}
+
+.feature .cards .card .card-body .btn.btn-primary {
+    background: transparent;
+    border: white;
+    color: black;
+    padding: 0 0;
+    position: relative;
+}
+
+.feature .cards .card .card-body .btn.btn-primary::after {
+    content:"";
+    width: 100%;
+    height: 2px;
+    background-color: #189a46;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.cards i {
+    color: #189a46;
+    padding-bottom: 10px;
 }
