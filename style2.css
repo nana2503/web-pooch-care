@@ -415,4 +415,175 @@
     text-transform: capitalize;
     color: #fff;
     font-weight: 400;
+    text-align: center;
 }
+.plan {
+    padding-top: 100px;
+    height: 850px;
+    background-color: aliceblue;
+}
+.plan .plan-content {
+    text-align: center;
+    padding: 0 80px;
+}
+
+.plan .plan-content .sub-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #f53626;
+}
+
+.plan .plan-content .title-heading {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000c04;
+    margin-bottom: 48px;
+}
+
+.plan .plan-content .boxes{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.plan .plan-content .buy-box .buy-area {
+    border-radius: 10px;
+}
+
+.plan .plan-content .buy-box .buy-area {
+    width: 345px;
+    height: 452px;
+    background-color: white;
+    padding: 56px 40px;
+}
+
+.plan .plan-content .buy-box .buy-area .buy-info .price {
+    font-size: 40px;
+    line-height: 45px;
+    margin: 15px 0 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #189a46;
+}
+
+.plan .plan-content .buy-box .buy-area .buy-info .title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.plan .plan-content .buy-box .buy-area .buy-info .price label {
+    font-size: 25px;
+    vertical-align: text-top;
+}
+
+.plan .plan-content .buy-box .buy-area .buy-info .price span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    font-weight: 400;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.plan .plan-content .buy-box .buy-area .buy-info li {
+    list-style-type: none;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.plan .plan-content .boxes .buy-box .buy-area .buy-info .btn {
+    padding: 12px 35px;
+    margin-top: 30px;
+}
+
+.plan .plan-content .middle-box {
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 10px 30px 0 rgb(17 17 17 / 9%);
+    border-radius: 6px;
+}
+
+.plan .plan-content .middle-box .top-box {
+    width: 320px;
+    height: 250px;
+    background-color: #189a46;
+    border-radius: 15px 15px 0 0;
+    padding: 48px 40px 8px 40px;
+}
+
+.plan .plan-content .middle-box .top-box .middle-box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.plan .plan-content .middle-box .top-box .middle-box-title h5{
+    background-color: #fff;
+    color: #189a46;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.plan .plan-content .middle-box .top-box h6{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.plan .plan-content .middle-box .top-box h4{
+    font-size: 40px;
+    line-height: 45px;
+    margin: 15px 0 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.plan .plan-content .middle-box .top-box h4 label {
+    font-size: 25px;
+    vertical-align: text-top;
+}
+
+.plan .plan-content .middle-box .top-box h4 span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.plan .plan-content .middle-box .bottom-box {
+    border-radius:0 0 15px 15px;
+    background-color: white;
+    padding: 32px 40px 56px 40px;
+}
+
+.plan .plan-content .middle-box .bottom-box li{
+    list-style-type: none;
+    padding: 6px 0;
+}
+
+.plan .plan-content .middle-box .bottom-box button {
+    margin-top: 32px;
+    padding: 12px 35px;
+}
+
